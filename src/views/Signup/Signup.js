@@ -55,6 +55,8 @@ const Signup = () => {
 
   return (
     <form onSubmit={handleSubmit} className="login-form">
+      <h2>Bienvenido</h2>
+
       {fields.map((field) => (
         <FormInput {...field} key={field.name} />
       ))}

@@ -3,12 +3,12 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px 20px;
-    border: 3px solid rgb(48, 197, 185);
-    max-width: 15%;
+    border: 2px solid #a9a6a5;
+    max-width: 20%;
     margin: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-    background-color: black;
+    border-radius: 15px;
+    margin-top: 50px;
+    background: linear-gradient(to right, #d0bdd8, #8b6685, #5a455a, #433e41);
     color: #fff;
   }
   
@@ -23,13 +23,14 @@
     padding: 10px 20px;
     color: #333;
     border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid #a9a6a5;
     background-color: transparent;
     transition: all 0.2s;
   }
   
   .login-submit:hover {
-    background-color: #333;
+    background-color: #c0a0cb;
     color: #fff;
+    
   }
   

@@ -41,6 +41,7 @@ const Login = () => {
 
   return (
     <form onSubmit={handleSubmit} className="login-form">
+      <h>Bienvenido</h>
       {fields.map((field) => (
         <FormInput {...field} key={field.name} />
       ))}

@@ -29,7 +29,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar-container">
       
-      <div className = "TitleJWT">Aplicación JWT</div>
+      <div className = "TitleJWT">Inicio</div>
       {routes.map((route, i) => {
         if (route.shouldDisplay) {
           return (
